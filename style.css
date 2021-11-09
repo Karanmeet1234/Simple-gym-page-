@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(dumbbell-g378cbdd22_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+     color: white;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 36px;
+    top:20px ;
+}
+.mid{
+  display: block;
+  width:100%;
+  margin:20px auto;
+  
+}
+.right{
+display: inline-block;
+position: absolute;
+right: 36px;
+top:20px ;
+}
+ul{
+    overflow: auto;
+    margin: 1px 200px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 25px;
+    padding: 10px;
+   margin-left: 20px;
+   font-size: 17px;
+   
+}
+li{
+    list-style: none;
+    padding: 10px 2px;
+    display: inline-block;
+    margin: 10px -50px;
+    margin-left: 100px;
+    
+}
+li a:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+.logo img{
+    width: 130px;
+}
+.logo {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(218, 211, 211);
+    font-family:cursive;
+}
+#src{
+    display: inline-block;
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.form{
+   
+    margin: 180px 10px;
+    width: 33%;
+    padding: 40px;
+}
+.form h1{
+    color: red;
+}
+.form input{
+    display: block;
+    margin: 20px 0px;
+    border: 2px solid red;
+    background:rgb(34, 33, 33);
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    width: 320px;
+}
+.form input:hover{
+    background: #000;
+}
+.form button{
+    background-color: rgb(0, 0, 0);
+    padding: 12px 30px;
+    margin: 20px 0px;
+    border: 2px solid rgb(214, 37, 37);
+    border-radius: 15px;
+    color: red;
+    
+}
+#btn{
+    margin-left: 130px;
+}
+.form button:hover{
+    background-color: red;
+    color: white;
+}
